@@ -13,14 +13,14 @@ export function SectionHeader({ label, heading, subheading, align = 'left' }: Se
                     fontFamily: 'var(--font-ui)',
                     fontSize: 9, letterSpacing: '0.3em',
                     textTransform: 'uppercase',
-                    color: 'var(--color-gold)',
+                    color: 'var(--color-burnt-orange)',
                     marginBottom: 12,
                 }}>{label}</div>
             )}
             <h2 style={{
                 fontFamily: 'var(--font-display)',
                 fontSize: 40, fontWeight: 300,
-                color: 'var(--color-obsidian)',
+                color: 'var(--color-espresso)',
                 lineHeight: 1.1,
                 marginBottom: subheading ? 16 : 0,
             }}>{heading}</h2>

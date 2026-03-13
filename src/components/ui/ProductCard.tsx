@@ -44,7 +44,7 @@ export function ProductCard({
                     {badge && (
                         <div style={{
                             position: 'absolute', top: 12, left: 12,
-                            background: 'var(--color-obsidian)',
+                            background: 'var(--color-espresso)',
                             color: 'var(--color-white)',
                             fontFamily: 'var(--font-ui)',
                             fontSize: 8, letterSpacing: '0.2em',

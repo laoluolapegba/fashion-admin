@@ -32,7 +32,7 @@ export default function LoginPage() {
     return (
         <div style={{
             minHeight: '100vh',
-            background: 'var(--color-obsidian)',
+            background: 'var(--color-espresso)',
             display: 'flex',
             alignItems: 'center',
             justifyContent: 'center',
@@ -51,12 +51,12 @@ export default function LoginPage() {
                         fontSize: 28, fontWeight: 300,
                         color: 'var(--color-white)',
                         letterSpacing: '0.15em',
-                    }}>MAISON</div>
+                    }}>ELEVEN08</div>
                     <div style={{
                         fontFamily: 'var(--font-ui)',
                         fontSize: 9, letterSpacing: '0.3em',
                         textTransform: 'uppercase',
-                        color: 'var(--color-gold)',
+                        color: 'var(--color-burnt-orange)',
                         marginTop: 4,
                     }}>Admin Portal</div>
                 </div>
@@ -124,8 +124,8 @@ export default function LoginPage() {
                             fontSize: 10, letterSpacing: '0.25em',
                             textTransform: 'uppercase',
                             padding: '14px 32px',
-                            background: loading ? 'var(--color-graphite)' : 'var(--color-gold)',
-                            color: loading ? 'var(--color-smoke)' : 'var(--color-obsidian)',
+                            background: loading ? 'var(--color-graphite)' : 'var(--color-burnt-orange)',
+                            color: loading ? 'var(--color-smoke)' : 'var(--color-espresso)',
                             border: 'none',
                             cursor: loading ? 'not-allowed' : 'pointer',
                             marginTop: 8,
