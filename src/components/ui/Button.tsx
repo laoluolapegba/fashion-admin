@@ -8,14 +8,14 @@ interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
 
 const styles: Record<ButtonVariant, React.CSSProperties> = {
     primary: {
-        background: 'var(--color-obsidian)', color: 'var(--color-white)', border: 'none',
+        background: 'var(--color-espresso)', color: 'var(--color-white)', border: 'none',
     },
     gold: {
-        background: 'var(--color-gold)', color: 'var(--color-obsidian)', border: 'none',
+        background: 'var(--color-burnt-orange)', color: 'var(--color-espresso)', border: 'none',
     },
     outline: {
-        background: 'transparent', color: 'var(--color-obsidian)',
-        border: '1px solid var(--color-obsidian)',
+        background: 'transparent', color: 'var(--color-espresso)',
+        border: '1px solid var(--color-espresso)',
     },
     ghost: {
         background: 'transparent', color: 'var(--color-smoke)', border: 'none',

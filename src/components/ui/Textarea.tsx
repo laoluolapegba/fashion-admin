@@ -22,9 +22,9 @@ export const Textarea = forwardRef<HTMLTextAreaElement, TextareaProps>(
                 style={{
                     width: '100%', padding: '12px 16px',
                     fontFamily: 'var(--font-ui)', fontSize: 13,
-                    background: 'var(--color-ivory)',
+                    background: 'var(--color-cream)',
                     border: `1px solid ${error ? 'var(--color-error)' : 'var(--color-linen)'}`,
-                    color: 'var(--color-obsidian)',
+                    color: 'var(--color-espresso)',
                     outline: 'none',
                     resize: 'vertical',
                     lineHeight: 1.6,

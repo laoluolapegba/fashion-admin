@@ -40,7 +40,7 @@ export function AdminSidebar() {
                     fontSize: 8, fontWeight: 400,
                     letterSpacing: '0.3em',
                     textTransform: 'uppercase',
-                    color: 'var(--color-gold)',
+                    color: 'var(--color-burnt-orange)',
                     marginTop: 3,
                 }}>ADMIN</div>
             </div>
@@ -54,7 +54,7 @@ export function AdminSidebar() {
                             display: 'flex', alignItems: 'center',
                             padding: '11px 24px',
                             background: isActive ? 'var(--color-graphite)' : 'transparent',
-                            borderLeft: isActive ? '2px solid var(--color-gold)' : '2px solid transparent',
+                            borderLeft: isActive ? '2px solid var(--color-burnt-orange)' : '2px solid transparent',
                             fontFamily: 'var(--font-ui)',
                             fontSize: 11, fontWeight: 400,
                             letterSpacing: '0.15em',
@@ -79,7 +79,7 @@ export function AdminSidebar() {
                     fontSize: 9, letterSpacing: '0.1em',
                     color: 'var(--color-smoke)',
                     marginBottom: 8,
-                }}>admin@maison.com</div>
+                }}>admin@ELEVEN08.com</div>
                 <form action="/api/auth/signout" method="POST">
                     <button type="submit" style={{
                         fontFamily: 'var(--font-ui)',

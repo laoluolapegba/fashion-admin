@@ -28,6 +28,10 @@ export async function middleware(request: NextRequest) {
 
     const { data: { user } } = await supabase.auth.getUser()
 
+    const role = user?.app_metadata?.role
+
+
+
     const pathname = request.nextUrl.pathname
     const isAuthRoute = pathname === '/login'
     const isDashboardRoute = pathname.startsWith('/dashboard') ||
@@ -38,8 +42,11 @@ export async function middleware(request: NextRequest) {
         pathname.startsWith('/bookings') ||
         pathname.startsWith('/subscribers')
 
-    if (isDashboardRoute && !user) {
-        return NextResponse.redirect(new URL('/login', request.url))
+
+    if (isDashboardRoute && (!user || role !== 'admin')) {
+        return NextResponse.redirect(
+            new URL('/login', request.url)
+        )
     }
 
     if (isAuthRoute && user) {

@@ -1,5 +1,5 @@
 import { createClient } from '@supabase/supabase-js'
-
+import type { Database } from '@/types/database.types'
 // SERVER-SIDE ONLY — never import this in a Client Component
 export const supabaseAdmin = createClient(
     process.env.NEXT_PUBLIC_SUPABASE_URL!,
